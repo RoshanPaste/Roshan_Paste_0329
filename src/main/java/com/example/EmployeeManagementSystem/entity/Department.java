@@ -18,7 +18,7 @@ public class Department {
 
     private boolean isActive;
     private String createdBy;
-    private LocalDateTime createdDate;
+    private String createdDate;
     private String updatedBy;
-    private LocalDateTime updatedDate;
+    private String updatedDate;
 }

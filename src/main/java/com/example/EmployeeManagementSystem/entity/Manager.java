@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
-@Table(name = "ManagerInfo")
+@Table(name = "managerInfo")
 public class Manager {
 
     @Id
@@ -18,7 +18,7 @@ public class Manager {
 
     private boolean isActive;
     private String createdBy;
-    private LocalDateTime createdDate;
+    private String createdDate;
     private String updatedBy;
-    private LocalDateTime updatedDate;
+    private String updatedDate;
 }
