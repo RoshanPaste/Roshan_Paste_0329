@@ -1,16 +1,14 @@
-package com.example.EmployeeManagementSystem.entity;
+package com.example.EmployeeManagementSystem.dto;
 
-import jakarta.persistence.*;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
-@Entity
 @Data
-@Table(name = "employeeInfo")
-public class Employee {
+public class EmployeeDto {
 
-    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long employeeId;
     private String employeeFirstName;
